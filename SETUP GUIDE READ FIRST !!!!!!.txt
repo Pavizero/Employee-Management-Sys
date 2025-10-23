@@ -1,0 +1,27 @@
+Create the Database
+Right-click on Databases → New Database
+Database name: EMSDB
+Click OK
+Run the database script:
+Open "DatabaseRecreateUpdated.sql" in SSMS
+Click Execute
+Verify the script runs successfully
+
+2. Connection String Config
+Open DatabaseHelper.cs in your code editor
+Verify the connection string
+
+3. Using Visual Studio
+Open EMS.sln in Visual Studio
+Restore NuGet packages (right-click solution → Restore NuGet Packages)
+Build the solution (Build → Build Solution)
+Run the application (F5 or Debug → Start Debugging)
+
+4. Default login credentials
+Username: admin
+Password: admin123
+
+If login fails:
+Check your database connection
+Verify the database was created successfully
+Check the connection string in DatabaseHelper.cs
